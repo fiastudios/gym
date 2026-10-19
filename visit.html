@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Visit &amp; free week — FORGE</title>
+  <meta name="description" content="Visit FORGE at 480 Mercer Avenue, Riverside. Weekdays 5am–11pm, weekends 7am–8pm. Book a seven-day trial. No card required.">
+  <meta name="theme-color" content="#0b0b0a">
+  <meta property="og:title" content="Visit FORGE">
+  <meta property="og:description" content="Book a ten-minute tour and seven days on the floor.">
+  <meta property="og:image" content="images/forge-lobby.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="image" href="images/forge-lobby.jpg">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@1,9..144,500;1,9..144,600&family=Manrope:wght@400;500;600;700&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.classList.add("js")</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="nav">
+  <div class="wrap nav-inner">
+    <a class="logo" href="index.html"><i></i>FORGE</a>
+    <nav class="nav-links" id="nav-links" aria-label="Primary">
+      <a href="classes.html">Classes</a>
+      <a href="membership.html">Membership</a>
+      <a href="coaches.html">Coaches</a>
+      <a class="active" href="visit.html">Visit</a>
+    </nav>
+    <div class="nav-end">
+      <a class="btn btn-heat btn-sm nav-cta" href="#trial">Start a free week</a>
+      <button class="menu-btn" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Menu"><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <section class="page-hero">
+    <img class="hero-media" src="images/forge-lobby.jpg" alt="The Forge lobby with an oak desk, olive tree, and morning light">
+    <div class="hero-shade"></div>
+    <div class="wrap">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="pulse" data-pulse></span><span data-hours>Riverside athletic club</span></p>
+        <h1>Come see <em>the room.</em></h1>
+        <p class="lede">480 Mercer Avenue. Ten minutes with someone who trains here, then seven days if you want them. No card to book the tour.</p>
+        <div class="hero-actions">
+          <a class="btn btn-heat" href="#trial">Book a tour</a>
+          <a class="btn btn-ghost" href="tel:+14155550148">Call the desk</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap visit-grid">
+      <div>
+        <p class="kicker">The practical part</p>
+        <h2>Hours, parking, <em>what to bring.</em></h2>
+        <div class="info-list">
+          <div>
+            <strong>Address</strong>
+            <p>480 Mercer Avenue<br>Riverside, CA 92501</p>
+          </div>
+          <div>
+            <strong>Hours</strong>
+            <p>Monday–Friday, 5am–11pm<br>Saturday–Sunday, 7am–8pm<br>The desk is staffed until 8pm. After that, members use a door code.</p>
+          </div>
+          <div>
+            <strong>Parking</strong>
+            <p>The lot behind the building is free for the first hour, then $2. Street parking on Mercer is free after 6pm.</p>
+          </div>
+          <div>
+            <strong>What to bring</strong>
+            <p>Training shoes and a lock if you own one. Belts, wraps, gloves, mats, and day lockers are here. Ride shoes are at the desk.</p>
+          </div>
+          <div>
+            <strong>Desk</strong>
+            <p><a href="tel:+14155550148">(415) 555-0148</a><br><a href="mailto:hello@forgeathletic.com">hello@forgeathletic.com</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="form-card" id="trial">
+        <h2>Start a free week.</h2>
+        <p class="lede">Tell us when you can come in. We will call to confirm a tour and set the seven days.</p>
+        <form class="js-form">
+          <div class="fields">
+            <label class="field"><span>Name</span><input name="name" required autocomplete="name"></label>
+            <label class="field"><span>Email</span><input name="email" type="email" required autocomplete="email"></label>
+            <label class="field"><span>Phone</span><input name="phone" type="tel" required autocomplete="tel"></label>
+            <label class="field"><span>Plan in mind</span>
+              <select id="plan" name="plan">
+                <option value="unsure">Not sure yet</option>
+                <option value="daylight">Daylight · $69</option>
+                <option value="access">All Access · $109</option>
+                <option value="forge">Forge+ · $179</option>
+              </select>
+            </label>
+            <label class="field full"><span>When works</span>
+              <select name="when" required>
+                <option value="">Choose a window</option>
+                <option>Weekday morning</option>
+                <option>Weekday midday</option>
+                <option>Weekday evening</option>
+                <option>Saturday</option>
+                <option>Sunday</option>
+              </select>
+            </label>
+            <label class="field full"><span>What you want from the month</span><textarea name="goal" placeholder="Get back into a routine, learn the barbell, train for something specific."></textarea></label>
+          </div>
+          <button class="btn btn-heat" type="submit">Book my tour</button>
+        </form>
+        <div class="form-success" hidden>
+          <strong>You're booked in.</strong>
+          <p>The desk will call within one business day to confirm the tour. Your seven days start the morning you come in, and nothing is billed unless you choose a membership.</p>
+        </div>
+        <p class="fine">No card to hold the tour. Questions first? Call <a href="tel:+14155550148">(415) 555-0148</a>.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:0">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="kicker">Inside</p>
+        <h2>What you are <em>walking into.</em></h2>
+      </div>
+      <div class="amenity-grid">
+        <article class="amenity">
+          <img src="images/forge-floor.jpg" alt="Strength floor with racks and tall windows" loading="lazy">
+          <div><h3>The floor</h3><p>12,400 square feet. Racks, dumbbells to 140 lb, and room to actually use them.</p></div>
+        </article>
+        <article class="amenity">
+          <img src="images/forge-ride.jpg" alt="The ride studio" loading="lazy">
+          <div><h3>Three studios</h3><p>Strength, conditioning, boxing, and a ride room of 28 bikes.</p></div>
+        </article>
+        <article class="amenity">
+          <img src="images/forge-recovery.jpg" alt="Sauna and cold plunge" loading="lazy">
+          <div><h3>Recovery</h3><p>Cedar sauna and a cold plunge. Included on Forge+, $20 otherwise.</p></div>
+        </article>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="wrap footer-grid">
+    <div>
+      <a class="logo" href="index.html"><i></i>FORGE</a>
+      <p>An athletic club in Riverside. Strength, classes, and recovery — coached, capped, and open early.</p>
+    </div>
+    <div>
+      <p class="foot-label">Train</p>
+      <ul>
+        <li><a href="classes.html#strength">Strength</a></li>
+        <li><a href="classes.html#conditioning">Conditioning</a></li>
+        <li><a href="classes.html#boxing">Boxing</a></li>
+        <li><a href="classes.html#ride">Ride</a></li>
+        <li><a href="classes.html#mobility">Mobility</a></li>
+        <li><a href="classes.html#schedule">Schedule</a></li>
+      </ul>
+    </div>
+    <div>
+      <p class="foot-label">Club</p>
+      <ul>
+        <li><a href="membership.html">Membership</a></li>
+        <li><a href="coaches.html">Coaches</a></li>
+        <li><a href="visit.html">Visit</a></li>
+        <li><a href="visit.html#trial">Free week</a></li>
+      </ul>
+    </div>
+    <div>
+      <p class="foot-label">Visit</p>
+      <p>480 Mercer Avenue<br>Riverside, CA 92501</p>
+      <p><a href="tel:+14155550148">(415) 555-0148</a><br><a href="mailto:hello@forgeathletic.com">hello@forgeathletic.com</a></p>
+      <p>Mon–Fri 5am–11pm<br>Sat–Sun 7am–8pm</p>
+    </div>
+  </div>
+  <div class="wrap legal">
+    <span>© 2026 FORGE Athletic</span>
+    <span>Sample club website. Names, memberships, and photography are for demonstration.</span>
+  </div>
+  <div class="wordmark" aria-hidden="true">FORGE</div>
+</footer>
+
+<div class="dock">
+  <a class="dock-call" href="tel:+14155550148">Call</a>
+  <a class="btn btn-heat" href="#trial">Start a free week</a>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
